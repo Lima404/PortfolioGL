@@ -1,15 +1,18 @@
 <template lang="pt-br">
-    <div class="navbar-container">
+    <section class="navbar-container">
         <div class="container navbar">
-            <div class="card">
-                <a class="menu-buttom">Home</a>
-                <a class="menu-buttom">Projects</a>
-                <a class="menu-buttom">Dashboard</a>
-                <a class="menu-buttom">Contact</a>
-                <a class="menu-buttom">Mensage</a>
+            <div class="box">
+                <div class="links">
+                    <a href="#" class="menu-buttom">HOME</a>
+                    <a href="#" class="menu-buttom">WHO I'M</a>
+                    <a href="#" class="menu-buttom">PROJECTS</a>
+                    <a href="#" class="menu-buttom">SKILLS</a>
+                    <a href="#" class="menu-buttom">HOOBYS</a>
+                    <a href="#" class="menu-buttom">CONTACT</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {
@@ -18,39 +21,58 @@ export default {
 </script>
 <style scoped>
     
-    .card{
+    .navbar-container{
+        background: #E1E1DD;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 30px;
-        position: absolute;
-        left: 26%;
-        top: 600px;
+        padding: 10px 145px;
+        gap: 40px;  
+    }
+
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 150px;
+        gap: 40px;
+        box-sizing: border-box;
+        border-width: 3px 0px 1px 0px;
+        border-style: solid;
+        border-color: #000000;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 50px;
     }
 
     .menu-buttom{
-        color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Roboto Mono';
-        border: 1px solid white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        border-radius: 20px;
-        width: 150px;
-        height: 150px;
-        cursor: pointer;
-        padding: 10px 20px;
-        transition: 0.5s ease-in-out;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        text-decoration: none;
+        transition: 0.5s;
     }
 
     .menu-buttom:hover{
-        width: 200px;
-        height: 200px;
-        background-color: rgba(255, 255, 255, 0.301);
-        font-size: 2rem;
-        opacity: 1px;
+        font-size: 26px;
+        font-weight: 600;
     }
+
+
 
 </style>
