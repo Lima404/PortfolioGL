@@ -1,15 +1,18 @@
 <template lang="pt-br">
-    <div class="hero-container">
+    <section class="hero-container">
         <div class="container hero">
-            <div class="base">
-                <article>
-                    <h1>My Portfolio</h1>
-                    <p>Hi, my name is <strong>Gabriel Lima</strong>, I'm a student of information systems in Federal University of Rio Grande do Norte, currently i'm focused on developing my skills in programming. Lately I'm focusing on front-end web development but I want to become a Full-Stack and mobile programmer.</p>
-                </article>
-                <img src="../../assets/hero/foto.svg" alt="">
-            </div>
+                <div class="answer">
+                    <h2><span>W</span>HO I'M?</h2>
+                    <div class="text">
+                        <P><strong>M</strong>y name is Gabriel, I'm 23 years old and I live in RN. The last 2 years were a turning point in my future, it was at that moment that I started to be curious about programming, and thus, I started my studies in web development.</P>
+                        <P>Currently, I am an academic in information systems at UFRN and a front-end programmer / UI/UX designer, I still intend to become full-stack, in order to be a reference in web development. Added to that, today I am a programmer and marketing director for the company Júnior byte seridó, and in addition to that, I also get involved in some projects as a freelancer.</P>
+                        <P>I have some principles as pillars in my life, I keep my values ​​well defined and thus, I understand that trust, loyalty, respect, responsibility and commitment are the basis of anything to build in life.</P>
+                        <P>Finally, I feel ready and happy to live each stage of life in the necessary way, thus learning from all stages and evolving as a person and professional.</P>
+                    </div>
+                </div>
+            <img src="../../assets/hero/EU.svg" alt="">
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {
@@ -18,48 +21,61 @@ export default {
 </script>
 <style scoped>
 
-    .hero-container{
-        background: linear-gradient(to right, #054572, #13dace) ;
-        display: flex;
-    }
-
     .hero{
+        max-width: 1074px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        padding: 0px 33.5px 35px;
+        gap: 60px;
+        border-bottom: 2px solid #000000;
     }
 
-    .base{
+    .answer{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 100px 0px; 
-        gap: 100px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
     }
 
-    h1{
-        font-family: 'Roboto Mono', monospace;
-        font-weight: 400;
-        font-size: 2rem;
-        padding-bottom: 30px;
-        color: #13dace;
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    h2{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 69px;
+        color: #000000;
+    }
+
+    span{
+        font-size: 60px;
     }
 
     p{
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Times New Roman';
+        font-style: normal;
         font-weight: 400;
-        font-size: 1.5rem;
-    }
-
-    img{
-        border-radius: 20px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: justify;
+        color: #000000; 
     }
 
     strong{
-        color: #13dace;
-        font-weight: 600;
-        font-size: 1.9rem;
+        font-size: 36px;
     }
+
+
 
     
 </style>
