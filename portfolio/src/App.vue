@@ -1,24 +1,26 @@
-<template>
-  <MyHero></MyHero>
-  <navbar></navbar>
-  <MyProjects></MyProjects>
+<template lang="pt-br">
+  <div class="page">
+    <navbar></navbar>
+    <MyBody></MyBody>
+    
+  </div>
 </template>
-
 <script>
-import MyHero from './components/home/MyHero.vue'
-import navbar from './components/navbar.vue'
-import MyProjects from './components/home/MyProjects.vue'
-
-
+import navbar from '@/components/navbar.vue'
+import MyBody from '@/components/MyBody.vue'
 export default {
-
-  name: 'App',
-  components: { MyHero , navbar , MyProjects,  }
+  components: { navbar , MyBody }
 }
 </script>
+<style scoped>
 
-<style>
-
-
-
+  .page{
+    background: #E1E1DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+  }
+  
 </style>
