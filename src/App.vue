@@ -2,7 +2,6 @@
   <div class="page">
     <navbar></navbar>
     <MyBody></MyBody>
-    
   </div>
 </template>
 <script>
