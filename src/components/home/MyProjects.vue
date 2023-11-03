@@ -1,7 +1,7 @@
 <template lang="pt-br">
     <section class="porject-container">
         <div class="container project">
-            <h2 class="title">PROJECTS</h2>
+            <h2 id="titlep">PROJECTS</h2>
             <div class="box">
                 <div class="card">
                     <div class="desc">
@@ -117,7 +117,7 @@ export default {
         border-bottom: 2px solid #000000;
     }
 
-    .title{
+    #titlep{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
