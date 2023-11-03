@@ -4,11 +4,10 @@
             <div class="box">
                 <div class="links">
                     <a href="#" class="menu-buttom">HOME</a>
-                    <a href="#" class="menu-buttom">WHO I'M</a>
-                    <a href="#" class="menu-buttom">PROJECTS</a>
-                    <a href="#" class="menu-buttom">SKILLS</a>
-                    <a href="#" class="menu-buttom">HOOBYS</a>
-                    <a href="#" class="menu-buttom">CONTACT</a>
+                    <a href="#answer" class="menu-buttom">WHO I'M</a>
+                    <a href="#titlep" class="menu-buttom">PROJECTS</a>
+                    <a href="#titles" class="menu-buttom">SKILLS</a>
+                    <a href="#titlec" class="menu-buttom">CONTACT</a>
                 </div>
             </div>
         </div>
