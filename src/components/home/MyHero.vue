@@ -2,12 +2,12 @@
     <section class="hero-container">
         <div class="container hero">
                 <div class="answer">
-                    <h2><span>W</span>HO I'M?</h2>
+                    <h2><span>Q</span>UEM SOU EU!</h2>
                     <div class="text">
-                        <P><strong>M</strong>y name is Gabriel, I'm 23 years old and I live in RN. The last 2 years were a turning point in my future, it was at that moment that I started to be curious about programming, and thus, I started my studies in web development.</P>
-                        <P>Currently, I am an academic in information systems at UFRN and a front-end programmer / UI/UX designer, I still intend to become full-stack, in order to be a reference in web development. Added to that, today I am a programmer and marketing director for the company Júnior byte seridó, and in addition to that, I also get involved in some projects as a freelancer.</P>
-                        <P>I have some principles as pillars in my life, I keep my values ​​well defined and thus, I understand that trust, loyalty, respect, responsibility and commitment are the basis of anything to build in life.</P>
-                        <P>Finally, I feel ready and happy to live each stage of life in the necessary way, thus learning from all stages and evolving as a person and professional.</P>
+                        <P><strong>M</strong>eu nome é Gabriel, tenho 23 anos e moro no RN. Os últimos 2 anos foram uma virada no meu futuro, foi nesse momento que comecei a ter curiosidade por programação, e assim, iniciei meus estudos em desenvolvimento como programador full-stack.</P>
+                        <P>Atualmente sou acadêmico em sistemas de informação pela UFRN e programador full-stack, UI/UX designer e pretendo também me especializar em análise de sistemas com Power-BI, e sonho um dia me tornar referência nesses serviços. Somado a isso, Sobre minhas experiências de mercado, fui durante dois anos programador e diretor de marketing da empresa Júnior byte seridó, e além disso, e também participei do desenvolvimento de alguns projetos como freelancer.</P>
+                        <P>Tenho alguns princípios como pilares na minha vida, mantenho meus valores bem definidos e assim, entendo que confiança, lealdade, respeito, responsabilidade e comprometimento são a base de tudo que se constrói na vida.</P>
+                        <P>Por fim, sinto-me pronto e feliz para viver cada etapa da vida da forma mais necessária e otimista, aprendendo assim em todas as fazes e desejo continuar evoluindo como pessoa e como profissional.</P>
                     </div>
                 </div>
             <img src="../../assets/hero/EU.svg" alt="">
@@ -44,7 +44,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        margin: 10px;
         gap: 10px;
     }
 
@@ -75,7 +75,36 @@ export default {
         font-size: 36px;
     }
 
+    @media (max-width: 1065px) {
+        .hero{
+            flex-wrap: wrap;
+        }
 
+        .answer{
+            max-width: 80%;
+            align-items: center;
+        }
+
+        p{
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 850px) {
+
+        .answer{
+            align-items: center;
+        }
+
+        p{
+            width: 60%;
+            font-size: 24px;
+        }
+
+        .text{
+            align-items: center;
+        }
+    }
 
     
 </style>

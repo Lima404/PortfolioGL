@@ -3,19 +3,19 @@
         <div class="container skills">
             <h2 class="title">SKILLS</h2>
             <div class="box-skills">
-                <div class="cards">
-
-                </div>
                 <div class="texts">
                     <div class="javascript">
-                        <p><span>S</span>ome time passed and I started looking for some automations, I had already gone through disciplines such as algorithms and programming logic and that gave me the basis to evolve a little more, then I met javascript that helped me to make my projects more complete web.</p>
+                        <p class="topic">JAVASCRIPT</p>
+                        <p><span>A</span>lgum tempo se passou e comecei a procurar algumas automações, já havia passado por disciplinas como algoritmos e lógica de programação e programação orientada a objetos isso me deu base para evoluir um pouco mais, então conheci o javascript que me ajudou muito a deixar meus projetos web mais completos.</p>
                     </div>
                     <div class="HTML">
+                        <p class="topic">HTML & CSS</p>
                         <div class="desc">
-                            <p><span>I</span> started studying html along with css in 2019, that year I started to be interested in learning more about technology development. Initially, I carried out research, looked for videos on YouTube and online courses, over time, I started to put into practice everything I was learning. It was at that time that the foundation for my growth as a developer began.</p>
+                            <p><span>C</span>omecei a estudar html junto com css em 2019, nesse ano comecei a me interessar em aprender mais sobre desenvolvimento de tecnologia. Inicialmente fiz pesquisas, procurei vídeos no YouTube e cursos online, com o passar do tempo comecei a colocar em prática tudo o que estava aprendendo. Foi nessa época que começou a base para o meu crescimento como desenvolvedor.</p>
                         </div>
                         <div class="others">
-                            <p><span>T</span>hese are the main languages ​​of my day to day, but I still study other programming languages ​​that I intend to implement in my personal and professional projects. here's a list of what I occasionally program:</p>
+
+                            <p><span>E</span>ssas são as principais linguagens, bibliotecas e frameworks do meu dia a dia, ainda estudo muito sobre elas para melorar meus projetos tanto pessoais como profissionais.</p>
                             <div class="topico">
                                 <img src="../../assets/skills/topico1.svg" alt="topico1">
                                 <img src="../../assets/skills/topico2.svg" alt="topico2">
@@ -23,7 +23,8 @@
                         </div>
                     </div>
                     <div class="vue">
-                        <p><span>T</span>he vue.js language emerged in my trajectory from my first projects with the company byte seridó jr and a friend's recommendation. Over time, I identified myself with the framework and thus, creating new projects, including this one, from componentization to javascript integration and modeling of properties between components.</p>
+                        <p class="topic">VUE.JS</p>
+                        <p><span>A</span> linguagem vue.js surgiu na minha trajetória a partir dos meus primeiros projetos com a empresa byte seridó jr e recomendação de um amigo. Com o passar do tempo me identifiquei com o framework e assim, criando novos projetos, inclusive este, desde a componentização até a integração javascript e modelagem de propriedades entre componentes.</p>
                     </div>
                 </div>
             </div>
@@ -43,6 +44,7 @@ export default {
         flex-direction: column;
         align-items: center;
         padding: 0px 0px 60px;
+        border-bottom: 1px solid #000000;
         gap: 40px;
     }
 
@@ -58,15 +60,29 @@ export default {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        padding: 0px 20px;
+        gap: 210px;
+    }
+
+    .card2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
         padding: 0px;
-        gap: 20px;
+        gap: 265px;
+    }
+
+    .topic{
+        padding: 10px;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.13);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .texts{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
         padding: 0px;
         gap: 27px;
     }
@@ -74,8 +90,9 @@ export default {
     .javascript{
         max-width: 250px;
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 0px;
         gap: 10px;
     }
@@ -84,8 +101,18 @@ export default {
         max-width: 520px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 0px;
+    }
+
+    .vue{
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
     }
 
     .desc{
@@ -113,15 +140,6 @@ export default {
         gap: 20px;
     }
 
-    .vue{
-        max-width: 250px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 10px;
-    }
-
     p{
         font-family: 'Times New Roman';
         font-style: normal;
@@ -145,4 +163,33 @@ export default {
         color: #000000;
     }
     
+    @media (max-width:1120px) {
+        .texts{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: none;
+            padding: none;
+            gap: 27px;
+        }
+    }
+
+    @media (max-width:1078px) {
+        .vue{
+            max-width: 74%;
+        }
+    }
+
+    @media (max-width:800px) {
+        .HTML{
+            max-width: 74%;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #000000;
+        }
+        .javascript{
+            max-width: 74%;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #000000;
+        }
+    }
 </style>

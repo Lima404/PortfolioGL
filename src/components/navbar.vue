@@ -74,5 +74,9 @@ export default {
     }
 
 
-
+    @media (max-width:800px){
+        .navbar{
+            display: none;
+        }
+    }
 </style>

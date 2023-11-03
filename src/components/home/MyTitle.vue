@@ -2,7 +2,7 @@
     <section class="title-container">
         <div class="container title">
             <header>
-                <h1><strong>P</strong>ORTFOLIO</h1>
+                <h1><strong>P</strong>ORTFÓLIO</h1>
             </header>
         </div>
     </section>
@@ -47,6 +47,33 @@ export default {
 
     strong{
         font-size: 160px;   
+    }
+
+    @media (max-width:960px) {
+        h1{
+            font-size: 100px;
+        }
+        strong{
+            font-size: 116px;
+        }
+    }
+
+    @media (max-width:745px) {
+        h1{
+            font-size: 80px;
+        }
+        strong{
+            font-size: 100px;
+        }
+    }
+
+    @media (max-width:610px) {
+        h1{
+            font-size: 60px;
+        }
+        strong{
+            font-size: 80px;
+        }
     }
 
     
