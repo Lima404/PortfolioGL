@@ -1,7 +1,7 @@
 <template lang="pt-br">
     <section class="skills-container">
         <div class="container skills">
-            <h2 class="title">SKILLS</h2>
+            <h2 id="titles">SKILLS</h2>
             <div class="box-skills">
                 <div class="texts">
                     <div class="javascript">
