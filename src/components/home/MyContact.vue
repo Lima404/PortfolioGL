@@ -1,7 +1,7 @@
 <template lang="pt-br">
     <section class="contact-container">
         <div class="container contact">
-            <h2 class="title">CONTACT</h2>
+            <h2 id="titlec">CONTACT</h2>
             <div class="work">
                 <p><strong>V</strong>ocê precisa de um programador?</p>
                 <a href="mailto:gabriel.lima2307@uol.com.br">
