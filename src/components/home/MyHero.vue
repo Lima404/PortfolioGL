@@ -1,7 +1,7 @@
 <template lang="pt-br">
     <section class="hero-container">
         <div class="container hero">
-                <div class="answer">
+                <div id="answer">
                     <h2><span>Q</span>UEM SOU EU!</h2>
                     <div class="text">
                         <P><strong>M</strong>eu nome é Gabriel, tenho 23 anos e moro no RN. Os últimos 2 anos foram uma virada no meu futuro, foi nesse momento que comecei a ter curiosidade por programação, e assim, iniciei meus estudos em desenvolvimento como programador full-stack.</P>
@@ -32,7 +32,7 @@ export default {
         border-bottom: 2px solid #000000;
     }
 
-    .answer{
+    #answer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -80,7 +80,7 @@ export default {
             flex-wrap: wrap;
         }
 
-        .answer{
+        #answer{
             max-width: 80%;
             align-items: center;
         }
@@ -92,7 +92,7 @@ export default {
 
     @media (max-width: 850px) {
 
-        .answer{
+        #answer{
             align-items: center;
         }
 
