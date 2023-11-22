@@ -24,6 +24,9 @@
                             <a href="https://github.com/Lima404/Web-Global">
                                 <p class="show">SHOW MORE ></p>
                             </a>
+                            <a href="https://globalpen.netlify.app">
+                                <p class="show">Link do side ></p>
+                            </a>
                         </div>
                     </div>
                 </div>
