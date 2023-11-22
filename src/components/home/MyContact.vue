@@ -77,7 +77,7 @@ export default {
     h3{
         color: #000;
         font-family: Times New Roman;
-        font-size: 70px;
+        font-size: 64px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -86,7 +86,7 @@ export default {
     }
 
     h3:hover{
-        font-size: 80px;
+        font-size: 70px;
         text-decoration: underline;
     }
 
