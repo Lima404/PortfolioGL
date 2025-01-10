@@ -4,8 +4,8 @@
                 <div id="answer">
                     <h2><span>Q</span>UEM SOU EU!</h2>
                     <div class="text">
-                        <P><strong>M</strong>eu nome é Gabriel, tenho 23 anos e moro no RN. Os últimos 2 anos foram uma virada no meu futuro, foi nesse momento que comecei a ter curiosidade por programação, e assim, iniciei meus estudos em desenvolvimento como programador full-stack.</P>
-                        <P>Atualmente sou acadêmico em sistemas de informação pela UFRN e programador full-stack, UI/UX designer e pretendo também me especializar em análise de sistemas com Power-BI, e sonho um dia me tornar referência nesses serviços. Somado a isso, Sobre minhas experiências de mercado, fui durante dois anos programador e diretor de marketing da empresa Júnior byte seridó, e além disso, e também participei do desenvolvimento de alguns projetos como freelancer.</P>
+                        <P><strong>M</strong>eu nome é Gabriel, tenho 25 anos e moro no RN. Os últimos 4 anos foram uma virada no meu futuro, foi nesse momento que comecei a ter curiosidade por programação, e assim, iniciei meus estudos em desenvolvimento como programador full-stack.</P>
+                        <P>Atualmente sou acadêmico em sistemas de informação pela UFRN e programador full-stack, UI/UX designer e pretendo também me especializar em análise de sistemas com Power-BI, e sonho um dia me tornar referência nesses serviços. Somado a isso, Sobre minhas experiências de mercado, fui durante 4 anos programador e diretor de marketing da empresa Júnior byte seridó, e além disso, e também participei do desenvolvimento de alguns projetos como freelancer.</P>
                         <P>Tenho alguns princípios como pilares na minha vida, mantenho meus valores bem definidos e assim, entendo que confiança, lealdade, respeito, responsabilidade e comprometimento são a base de tudo que se constrói na vida.</P>
                         <P>Por fim, sinto-me pronto e feliz para viver cada etapa da vida da forma mais necessária e otimista, aprendendo assim em todas as fazes e desejo continuar evoluindo como pessoa e como profissional.</P>
                     </div>
@@ -103,6 +103,13 @@ export default {
 
         .text{
             align-items: center;
+        }
+    }
+
+    @media (max-width: 610px) {
+
+        img{
+            display: none;
         }
     }
 
