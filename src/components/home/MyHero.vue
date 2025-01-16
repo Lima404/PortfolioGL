@@ -111,6 +111,14 @@ export default {
         img{
             display: none;
         }
+
+        .text{
+            margin: 0;
+        }
+
+        p{
+            width: 400px;
+        }
     }
 
     
